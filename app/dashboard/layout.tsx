@@ -1,4 +1,6 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+
+export const experimental_ppr = true; // le agrega Partial Prerendering a todo el dashboard
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
